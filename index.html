@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental Service</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome To Our Store for Rent Cars</h1>
+        <h2>Filling Out the Form Below</h2>
+    </header>
+
+    <main>
+        <section class="form-section">
+            <h2>We Need To Collect Some Information From You:</h2>
+            <p>Personal Information:</p>
+
+            <form class="personal-info-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="Name" placeholder="Write your name">
+                </div>
+                <div class="form-group">
+                    <label for="age">Age</label>
+                    <input type="text" id="age" name="Age" placeholder="Write your age">
+                </div>
+                <div class="form-group">
+                    <label for="country">Country</label>
+                    <input type="text" id="country" name="Country" placeholder="Write your country">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="text" id="phone" name="PhoneNumber" placeholder="Write your phone number">
+                </div>
+                <div class="form-group">
+                    <label for="creditCard">Credit Card</label>
+                    <input type="text" id="creditCard" name="CreditCard" placeholder="Write your credit card">
+                </div>
+                <button type="submit">Sign</button>
+            </form>
+        </section>
+
+        <section class="form-section">
+            <h2>Cars Information:</h2>
+            <form class="car-info-form">
+                <div class="form-group">
+                    <label for="CarN">Car's Name</label>
+                    <input type="text" id="CarN" name="CarName" placeholder="Enter car name">
+                </div>
+                <div class="form-group">
+                    <label for="CarM">Car's Model</label>
+                    <input type="text" id="CarM" name="CarModel" placeholder="Enter car's model">
+                </div>
+                <div class="form-group">
+                    <label for="CarY">Car's Year</label>
+                    <input type="text" id="CarY" name="CarYear" placeholder="Enter car's year">
+                </div>
+                <div class="form-group">
+                    <label for="CarC">Car's Color</label>
+                    <input type="text" id="CarC" name="CarColor" placeholder="Enter car's color">
+                </div>
+                <div class="form-group">
+                    <label for="CarCO">Car's Cost</label>
+                    <input type="text" id="CarCO" name="CarCost" placeholder="Enter car's cost">
+                </div>
+                <div class="form-group">
+                    <label for="CarS">Car's Size</label>
+                    <input type="text" id="CarS" name="CarSize" placeholder="Enter car's size">
+                </div>
+                <button type="submit">Rent</button>
+            </form>
+        </section>
+
+        <section class="car-gallery">
+            <div class="gallery-grid">
+                <div class="car-card">
+                    <img src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?auto=format&fit=crop&w=800" alt="Luxury Sedan">
+                    <h3>Luxury Sedan</h3>
+                    <a href="#" class="view-details">View Details</a>
+                </div>
+                <div class="car-card">
+                    <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=800" alt="Sports Car">
+                    <h3>Sports Car</h3>
+                    <a href="#" class="view-details">View Details</a>
+                </div>
+                <div class="car-card">
+                    <img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=800" alt="SUV">
+                    <h3>SUV</h3>
+                    <a href="#" class="view-details">View Details</a>
+                </div>
+                <div class="car-card">
+                    <img src="https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=800" alt="Electric Vehicle">
+                    <h3>Electric Vehicle</h3>
+                    <a href="#" class="view-details">View Details</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Best Cars For Rent Cars. &copy;</p>
+        <nav>
+            <ul>
+                <li><a href="https://google.com" target="_blank" rel="noopener noreferrer">Google</a></li>
+                <li><a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
